@@ -30,7 +30,7 @@ public class SeleniumTest {
             // Exercise
             driver.get("https://www.google.com");
             String title = driver.getTitle();
-            Assertions.assertEquals("Gootgle", title);
+            Assertions.assertEquals("Google", title);
 
         }
 
